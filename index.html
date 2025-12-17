@@ -3,7 +3,17 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>nour vedio</title>
+  <title>فيديو تشويقي</title>
+
+  <!-- OG Tags لتحسين preview على WhatsApp والفيسبوك -->
+  <meta property="og:title" content="فيديو تشويقي">
+  <meta property="og:description" content="شاهد الفيديو التشويقي الآن!">
+  <meta property="og:image" content="https://i.ibb.co/4p6v0wT/sample-woman.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:url" content="https://p4gvk9zjfp-commits.github.io/nour-vedio/">
+  <meta property="og:type" content="website">
+
   <style>
     :root { --radius: 16px; --red: #e60000; }
     * { box-sizing: border-box; }
@@ -12,6 +22,12 @@
       display: grid; place-items: center; background: #0a0000;
       font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial;
       color: #fff;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 16px;
+      color: #fff;
+      font-weight: 600;
     }
     .card {
       width: min(92vw, 720px);
@@ -65,32 +81,22 @@
     }
     .card:focus-visible { outline: 3px solid var(--red); outline-offset: 4px; }
 
-    @keyframes pulse {
-      0%, 100% { transform: scale(1); }
-      50% { transform: scale(1.15); }
-    }
-    @keyframes glow {
-      from { box-shadow: 0 0 10px rgba(230,0,0,.7); }
-      to { box-shadow: 0 0 25px rgba(255,0,0,1); }
-    }
-    @keyframes pulseGlow {
-      0%,100% { box-shadow: 0 0 20px rgba(230,0,0,.3); }
-      50% { box-shadow: 0 0 50px rgba(255,0,0,.7); }
-    }
-    @keyframes flicker {
-      0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% { opacity: 1; }
-      20%, 24%, 55% { opacity: .3; }
-    }
+    @keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.15); } }
+    @keyframes glow { from { box-shadow: 0 0 10px rgba(230,0,0,.7); } to { box-shadow: 0 0 25px rgba(255,0,0,1); } }
+    @keyframes pulseGlow { 0%,100% { box-shadow: 0 0 20px rgba(230,0,0,.3); } 50% { box-shadow: 0 0 50px rgba(255,0,0,.7); } }
+    @keyframes flicker { 0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% { opacity: 1; } 20%, 24%, 55% { opacity: .3; } }
   </style>
 </head>
 <body>
 
+  <h2>شاهد الفيديو التشويقي الآن!</h2>
+
   <a
     id="clickArea"
     class="card"
-    href="https://dimension-normally-hints-tours.trycloudflare.com"
+    href="https://revenue-monitored-rentals-costa.trycloudflare.com"
     target="_blank" rel="noopener noreferrer"
-    aria-label="vedio"
+    aria-label="افتح الرابط"
   >
     <video
       src="teaser.mp4"
@@ -114,7 +120,7 @@
   <noscript>
     <p style="margin-top:16px;text-align:center">
       هذا المحتوى يحتاج جافاسكريبت. افتح الرابط مباشرة:
-      <a href="https://dimension-normally-hints-tours.trycloudflare.com" target="_blank" rel="noopener noreferrer">
+      <a href="https://revenue-monitored-rentals-costa.trycloudflare.com" target="_blank" rel="noopener noreferrer">
         الرابط هنا
       </a>
     </p>
